@@ -1,0 +1,62 @@
+body{
+  display: flow-root;
+  margin:0;
+  width: 100%;
+  padding:0;
+}
+html {
+  margin:0;
+  padding:0;
+
+}
+.full{
+  position: relative;
+  margin:0;
+  padding:0;
+
+}
+
+.body1{
+  position: relative;
+  min-height: 78px;
+  width: 100%;
+  background-color: ;
+
+  display: flex;
+  align-items: center;
+}
+
+.body1 .words{
+  position: relative;          
+  width: min(800px, 100%);
+  margin: 0 auto;              
+  height: 40px;
+
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px whitesmoke;
+}
+
+.body1 .words ul{
+  display: inline-flex;
+  gap:80px;
+  margin-top: 10px;
+  padding-left: 0 !important;
+  margin:0  !important;
+
+ 
+}
+.body1 .words ul li{
+  flex-direction: row;
+
+  list-style: none;
+  font-size:medium;
+  font-weight:bold;
+  color:black;
+  font-weight: 100;
+  animation: moveLeft 1s linear infinite ;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+
+}
